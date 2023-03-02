@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    background-color: rgb(227, 56, 84);
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.heading button{
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px px pink;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+.tittle{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.category , .price{
+font-weight: bold;
+text-transform: capitalize;
+margin: 1em;
+font-size: 1.2em;
+text-align: center;
+}
+.des{
+    text-align: center;
+    font-weight: 500;
+}
+.image{
+    width: 80%;
+    
+}
